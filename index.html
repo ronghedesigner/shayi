@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>沙溢</title>
+<style>
+#box{
+	width:960px;
+	margin:0 auto;
+	position:relative;
+}
+#shayi{
+	position:absolute;
+	left:500px;
+	top:60px;
+	transition:all 0.5s;
+}
+
+#intro{
+	position:absolute;
+	left:168px;
+	top:112px;
+	transition:all 0.5s;
+}
+#intro:hover{
+	box-shadow:0 0 30px 0 #609;
+}
+
+#shayi:hover{
+	transform:translateX(50px);
+}
+</style>
+</head>
+
+<body>
+<div id="box">
+<img src="images/bg.jpg" width="960" height="540" />
+<img src="images/intro.png" width="246" height="314" id="intro" />
+<img src="images/shayi.png" width="300" height="450" id="shayi" />
+</div>
+</body>
+</html>
